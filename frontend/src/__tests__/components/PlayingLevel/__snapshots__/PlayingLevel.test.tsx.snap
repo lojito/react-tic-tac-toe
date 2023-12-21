@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayingLevel should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="level"
+    data-testid="level"
+    title="How much thinking the computer does before playing."
+  >
+    <label
+      for="level"
+    >
+      Level:
+    </label>
+    <select
+      id="level"
+    >
+      <option
+        selected=""
+        value="0"
+      >
+        Easy
+      </option>
+      <option
+        value="1"
+      >
+        Smart
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,47 @@
+.game {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.play-again {
+  margin-left: 5px;
+}
+
+.start-playing {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin: 5px 0;
+
+  .see-game, .back {
+    margin: 0 5px;
+
+    a {
+      color: black;
+    }
+  }
+
+  .delete-game {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .back {
+    cursor: pointer;
+  }
+}
+
+hr {
+  margin: 15px;
+}
+
+.welcome-back {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.gameWrapper {
+  margin-top: 10px;
+  text-align: center;
+}

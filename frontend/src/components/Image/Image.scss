@@ -1,0 +1,27 @@
+.images {
+  margin: 10px 0;
+  font-weight: bold;
+
+  .user-image,
+  .computer-image {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .image-token {
+    width: 40%;
+    vertical-align: middle;
+  }
+
+  .refresh {
+    width: 13%;
+    margin: 0 1%;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .disabled {
+    pointer-events: none;
+  }
+}

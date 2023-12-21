@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GamesHistorical should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="info"
+  >
+    There is no historical data yet. Play some games and comeback.
+  </div>
+</DocumentFragment>
+`;

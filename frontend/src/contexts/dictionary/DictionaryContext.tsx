@@ -1,0 +1,83 @@
+import { createContext } from "react";
+import data from "../../assets/json/dictionary.json";
+import { Language } from "../../contexts/language/LanguageContext";
+
+export type DictionaryEntry = {
+  readonly ABOUT: string;
+  readonly ABOUT_GAME_DEVELOPED_WITH: string;
+  readonly ABOUT_OTHER_HOME_PROJECTS: string;
+  readonly ABOUT_SOURCE_CODE: string;
+  readonly AUTH_FORM_EMAIL_LABEL: string;
+  readonly AUTH_FORM_EMAIL_PLACEHOLDER: string;
+  readonly AUTH_FORM_NAME_LABEL: string;
+  readonly AUTH_FORM_NAME_PLACEHOLDER: string;
+  readonly AUTH_FORM_PASSWORD_LABEL: string;
+  readonly AUTH_FORM_PASSWORD_PLACEHOLDER: string;
+  readonly BUTTON_BACK: string;
+  readonly BUTTON_DELETE_GAME: string;
+  readonly BUTTON_LOGOUT: string;
+  readonly BUTTON_PLAY: string;
+  readonly BUTTON_PLAY_AGAIN: string;
+  readonly BUTTON_SEE_GAME: string;
+  readonly BUTTON_SIGNIN: string;
+  readonly BUTTON_SIGNUP: string;
+  readonly CATEGORY: string;
+  readonly CATEGORY_ANIMALS: string;
+  readonly CATEGORY_FRUITS_AND_VEGETABLES: string;
+  readonly CATEGORY_GERMANY_LANDMARKS: string;
+  readonly CATEGORY_HAVANA_LANDMARKS: string;
+  readonly CATEGORY_MONTREAL_LANDMARKS: string;
+  readonly CATEGORY_PUPPIES: string;
+  readonly CATEGORY_SEINFELD: string;
+  readonly CATEGORY_SOCCER_PLAYERS: string;
+  readonly CATEGORY_SPAIN_LANDMARKS: string;
+  readonly CATEGORY_VANCOUVER_LANDMARKS: string;
+  readonly CONTACT: string;
+  readonly CONTACT_AUTHOR: string;
+  readonly CONTACT_EMAIL: string;
+  readonly CONTACT_GITHUB: string;
+  readonly CONTACT_LINKEDIN: string;
+  readonly FLAG_ENGLISH_HINT: string;
+  readonly FLAG_FRENCH_HINT: string;
+  readonly FLAG_SPANISH_HINT: string;
+  readonly GAME: string;
+  readonly GAME_OVER: string;
+  readonly GAME_STARTED_BY: string;
+  readonly GAME_STARTED_BY_COMPUTER: string;
+  readonly GAME_STARTED_BY_YOU: string;
+  readonly GAME_DELETE_ERROR: string;
+  readonly HISTORICAL: string;
+  readonly HISTORICAL_NO_DATA_YET: string;
+  readonly HISTORICAL_FETCHING_GAMES: string;
+  readonly HISTORICAL_FETCHING_GAME: string;
+  readonly HISTORICAL_FETCHING_GAMES_ERROR: string;
+  readonly HISTORICAL_FETCHING_GAME_ERROR: string;
+  readonly IMAGE_COMPUTER_LABEL: string;
+  readonly IMAGE_COMPUTER_TOOLTIP: string;
+  readonly IMAGE_REFRESH_TOOLTIP: string;
+  readonly IMAGE_USER_LABEL: string;
+  readonly IMAGE_USER_TOOLTIP: string;
+  readonly LOGIN: string;
+  readonly MESSAGE_DRAW: string;
+  readonly MESSAGE_LOST: string;
+  readonly MESSAGE_WON: string;
+  readonly PLAYING_LEVEL_EASY: string;
+  readonly PLAYING_LEVEL_LABEL: string;
+  readonly PLAYING_LEVEL_SMART: string;
+  readonly PLAYING_LEVEL_TOOLTIP: string;
+  readonly REPOSITORY: string;
+  readonly SIGNUP: string;
+  readonly WELCOME_BACK: string;
+  readonly YOU_START_LABEL: string;
+  readonly YOU_START_NO: string;
+  readonly YOU_START_TOOLTIP: string;
+  readonly YOU_START_YES: string;
+};
+
+export type DictionaryContextValue = {
+  dictionary: DictionaryEntry;
+};
+
+export const DictionaryContext = createContext<DictionaryContextValue>({
+  dictionary: data[Language.English],
+});

@@ -1,0 +1,33 @@
+.authSection {
+  margin: 20px auto 0;
+  padding: 1rem;
+  border: 1px solid #3b0062;
+  border-radius: 5px;
+  width: 60%;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .input {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .button {
+    text-align: right;
+  }
+
+  label {
+    display: block;  
+  }
+
+  input {
+    display: block;
+    padding: 2px 5px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;    
+  }
+}
