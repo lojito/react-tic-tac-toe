@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageHistorical should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="images historical"
+    data-testid="images-historical"
+  >
+    <div
+      class="user-image"
+    >
+      <span>
+        You: 
+      </span>
+      <img
+        alt="user"
+        class="image-token"
+        src="undefined/images/soccer/13.jpg"
+      />
+    </div>
+    <div
+      class="computer-image"
+    >
+      <span>
+        PC: 
+      </span>
+      <img
+        alt="computer"
+        class="image-token"
+        src="undefined/images/soccer/15.jpg"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

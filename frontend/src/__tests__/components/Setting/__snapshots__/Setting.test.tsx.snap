@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Setting should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="setting"
+    data-testid="level"
+    title="How much thinking the computer does before playing."
+  >
+    <label
+      for="setting"
+    >
+      Level?
+    </label>
+    <select
+      id="setting"
+    >
+      <option
+        selected=""
+        value="0"
+      >
+        Easy
+      </option>
+      <option
+        value="1"
+      >
+        Smart
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Setting should render correctly as a StartGame component 1`] = `
+<DocumentFragment>
+  <div
+    class="setting"
+    data-testid="startgame"
+    title="Who starts playing the game: You or the computer?"
+  >
+    <label
+      for="setting"
+    >
+      Who plays first?
+    </label>
+    <select
+      id="setting"
+    >
+      <option
+        selected=""
+        value="0"
+      >
+        Yes
+      </option>
+      <option
+        value="1"
+      >
+        No
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

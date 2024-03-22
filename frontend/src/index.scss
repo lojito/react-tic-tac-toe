@@ -1,0 +1,32 @@
+body {
+  background-color: darkseagreen;
+  margin: 0;
+}
+
+.wrapper {
+  min-width: 320px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.info {
+  color: green;
+  margin-top: 10px;
+  font-weight: 1000;
+  text-align: center;
+}
+
+.board-footer {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.settings {
+  margin: 10px 0;
+  font-weight: bold;
+}

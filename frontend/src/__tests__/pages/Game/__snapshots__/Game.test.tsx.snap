@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="game text-center"
+    data-testid="game"
+  >
+    <div
+      class="welcome-back"
+    >
+      Welcome back, Livan
+    </div>
+    <div>
+      Category: Soccer players
+    </div>
+    <div>
+      User: Messi
+    </div>
+    <div>
+      Computer: Ronaldo
+    </div>
+    <div
+      class="settings"
+    >
+      <div>
+        You start: Yes
+      </div>
+      <div>
+        Playing Level: Easy
+      </div>
+    </div>
+    <button
+      aria-label="board"
+    >
+      BoardUI
+    </button>
+    <div
+      class="board-footer"
+    >
+      <button
+        aria-label="play"
+        class="play-again"
+      >
+        Start the game
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

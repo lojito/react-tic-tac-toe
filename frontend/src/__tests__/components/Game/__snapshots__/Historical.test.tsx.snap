@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Historical should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="game-wrapper"
+  >
+    <div>
+      Category: Soccer players
+    </div>
+    <div>
+      User: Messi
+    </div>
+    <div>
+      Computer: Ronaldo
+    </div>
+    <div
+      class="settings"
+    >
+      <div>
+        You start: Yes
+      </div>
+      <div>
+        Playing Level: Easy
+      </div>
+    </div>
+    <div
+      class="board-footer"
+    >
+      <span>
+        You lost!
+      </span>
+      <div
+        class="buttons"
+      >
+        <button
+          class="see-game"
+        >
+          <a
+            href="/historical/6354074f46bfb3571fe98ebc"
+          >
+            See Game
+          </a>
+        </button>
+        <button
+          class="delete-game"
+        >
+          Delete Game
+        </button>
+      </div>
+    </div>
+    <hr />
+  </div>
+</DocumentFragment>
+`;

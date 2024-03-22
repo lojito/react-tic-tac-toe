@@ -1,0 +1,29 @@
+.game-wrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.buttons {
+  margin: 5px 0;
+
+  .see-game, .back {
+    margin: 0 5px;
+
+    a {
+      color: black;
+    }
+  }
+
+  .delete-game {
+    margin: 0 5px;
+    cursor: pointer;
+   }
+
+  .back {
+    cursor: pointer;
+  }
+}
+
+hr {
+  margin: 15px;
+}

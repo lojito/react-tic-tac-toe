@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthForm should render correctly 1`] = `
+<DocumentFragment>
+  <section
+    class="authSection"
+  >
+    <form>
+      <div
+        class="input"
+      >
+        <label
+          for="email"
+        >
+          E-mail
+        </label>
+        <input
+          autocomplete="email"
+          id="email"
+          required=""
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        class="input"
+      >
+        <label
+          for="name"
+        >
+          Name
+        </label>
+        <input
+          id="name"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="input"
+      >
+        <label
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          autocomplete="current-password"
+          id="password"
+          required=""
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        class="button"
+      >
+        <button
+          name="Sign up"
+          type="submit"
+        >
+          Sign up
+        </button>
+      </div>
+    </form>
+  </section>
+</DocumentFragment>
+`;

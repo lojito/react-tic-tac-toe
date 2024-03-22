@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image renders the Image component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="images"
+    data-testid="images"
+  >
+    <div
+      class="user-image"
+    >
+      <span>
+        You: 
+      </span>
+      <img
+        alt="user"
+        class="image-token"
+        src="undefined/images/habana/0.jpg"
+        title="You will play with this image."
+      />
+      <img
+        alt="refresh-user-img"
+        class="refresh "
+        id="user"
+        src="test-file-stub"
+        title="Click to play with a different image."
+      />
+    </div>
+    <div
+      class="computer-image"
+    >
+      <span>
+        PC: 
+      </span>
+      <img
+        alt="computer"
+        class="image-token"
+        src="undefined/images/habana/1.jpg?"
+        title="The computer will play with this image."
+      />
+      <img
+        alt="refresh-computer-img"
+        class="refresh "
+        id="computer"
+        src="test-file-stub"
+        title="Click to play with a different image."
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

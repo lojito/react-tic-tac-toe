@@ -1,0 +1,92 @@
+import { createContext } from "react";
+import { Language } from "../../contexts/language/LanguageContext";
+import data from "../../data/json/dictionary.json";
+
+export type DictionaryEntry = Partial<
+  Record<
+    | "ABOUT"
+    | "ABOUT_GAME_DEVELOPED_WITH"
+    | "ABOUT_OTHER_HOME_PROJECTS"
+    | "ABOUT_SOURCE_CODE"
+    | "AUTH_FORM_EMAIL_LABEL"
+    | "AUTH_FORM_EMAIL_PLACEHOLDER"
+    | "AUTH_FORM_NAME_LABEL"
+    | "AUTH_FORM_NAME_PLACEHOLDER"
+    | "AUTH_FORM_PASSWORD_LABEL"
+    | "AUTH_FORM_PASSWORD_PLACEHOLDER"
+    | "AUTH_ERROR_SERVER_NOT_RESPONDING"
+    | "AUTH_ERROR_VALIDATION_FAILED"
+    | "AUTH_ERROR_UNKNOWN"
+    | "BUTTON_BACK"
+    | "BUTTON_DELETE_GAME"
+    | "BUTTON_LOGOUT"
+    | "BUTTON_PLAY"
+    | "BUTTON_PLAY_AGAIN"
+    | "BUTTON_SEE_GAME"
+    | "BUTTON_SIGNIN"
+    | "BUTTON_SIGNUP"
+    | "CATEGORY"
+    | "CATEGORY_ANIMALS"
+    | "CATEGORY_FRUITS_AND_VEGETABLES"
+    | "CATEGORY_GERMANY_LANDMARKS"
+    | "CATEGORY_HAVANA_LANDMARKS"
+    | "CATEGORY_MONTREAL_LANDMARKS"
+    | "CATEGORY_PUPPIES"
+    | "CATEGORY_SEINFELD"
+    | "CATEGORY_SOCCER_PLAYERS"
+    | "CATEGORY_SPAIN_LANDMARKS"
+    | "CATEGORY_VANCOUVER_LANDMARKS"
+    | "CONTACT"
+    | "CONTACT_AUTHOR"
+    | "CONTACT_EMAIL"
+    | "CONTACT_GITHUB"
+    | "CONTACT_LINKEDIN"
+    | "FLAG_ENGLISH_HINT"
+    | "FLAG_FRENCH_HINT"
+    | "FLAG_SPANISH_HINT"
+    | "GAME"
+    | "GAME_OVER"
+    | "GAME_STARTED_BY"
+    | "GAME_STARTED_BY_COMPUTER"
+    | "GAME_STARTED_BY_YOU"
+    | "GAME_DELETING"
+    | "GAME_DELETE_ERROR"
+    | "GAME_SAVE_ERROR"
+    | "GAME_SAVING"
+    | "HISTORICAL"
+    | "HISTORICAL_NO_DATA_YET"
+    | "HISTORICAL_FETCHING_GAMES"
+    | "HISTORICAL_FETCHING_GAME"
+    | "HISTORICAL_FETCHING_GAMES_ERROR"
+    | "HISTORICAL_FETCHING_GAME_ERROR"
+    | "IMAGE_COMPUTER_LABEL"
+    | "IMAGE_COMPUTER_TOOLTIP"
+    | "IMAGE_REFRESH_TOOLTIP"
+    | "IMAGE_USER_LABEL"
+    | "IMAGE_USER_TOOLTIP"
+    | "LOGIN"
+    | "MESSAGE_DRAW"
+    | "MESSAGE_LOST"
+    | "MESSAGE_WON"
+    | "PLAYING_LEVEL_EASY"
+    | "PLAYING_LEVEL_LABEL"
+    | "PLAYING_LEVEL_SMART"
+    | "PLAYING_LEVEL_TOOLTIP"
+    | "REPOSITORY"
+    | "SIGNUP"
+    | "WELCOME_BACK"
+    | "START_GAME_LABEL"
+    | "START_GAME_ANSWER_NO"
+    | "START_GAME_TOOLTIP"
+    | "START_GAME_ANSWER_YES",
+    string
+  >
+>;
+
+export type DictionaryContextValue = {
+  dictionary: DictionaryEntry;
+};
+
+export const DictionaryContext = createContext<DictionaryContextValue>({
+  dictionary: data[Language.English],
+});

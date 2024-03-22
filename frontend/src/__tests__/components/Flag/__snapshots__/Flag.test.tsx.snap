@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flags renders the component correctly 1`] = `
+<DocumentFragment>
+  <header>
+    <div
+      class="flags"
+      data-testid="flags"
+    >
+      <img
+        alt="English"
+        src="test-file-stub"
+        style="opacity: 0.5;"
+        title="English"
+      />
+      <img
+        alt="French"
+        data-testid="livan"
+        src="test-file-stub"
+        style="opacity: 1;"
+        title="French"
+      />
+      <img
+        alt="Spanish"
+        src="test-file-stub"
+        style="opacity: 1;"
+        title="Spanish"
+      />
+    </div>
+  </header>
+</DocumentFragment>
+`;

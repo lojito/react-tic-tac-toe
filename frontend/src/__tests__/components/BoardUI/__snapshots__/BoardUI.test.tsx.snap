@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoardUI should render the BoardUI component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="board"
+    data-testid="board"
+  >
+    <button
+      class=""
+      data-testid="square-0"
+      disabled=""
+      id="0"
+      style="background-image: url(undefined/images/default.jpg);"
+    >
+      0
+    </button>
+    <button
+      class=""
+      data-testid="square-1"
+      disabled=""
+      id="1"
+      style="background-image: url(undefined/images/default.jpg);"
+    >
+      1
+    </button>
+    <button
+      class=""
+      data-testid="square-2"
+      disabled=""
+      id="2"
+      style="background-image: url(undefined/images/default.jpg);"
+    >
+      2
+    </button>
+    <button
+      class=""
+      data-testid="square-3"
+      disabled=""
+      id="3"
+      style="background-image: url(undefined/images/default.jpg);"
+    >
+      3
+    </button>
+    <button
+      class=""
+      data-testid="square-4"
+      disabled=""
+      id="4"
+      style="background-image: url(undefined/images/default.jpg);"
+    >
+      4
+    </button>
+    <button
+      class=""
+      data-testid="square-5"
+      disabled=""
+      id="5"
+      style="background-image: url(undefined/images/default.jpg);"
+    >
+      5
+    </button>
+    <button
+      class=""
+      data-testid="square-6"
+      disabled=""
+      id="6"
+      style="background-image: url(undefined/images/default.jpg);"
+    >
+      6
+    </button>
+    <button
+      class=""
+      data-testid="square-7"
+      disabled=""
+      id="7"
+      style="background-image: url(undefined/images/default.jpg);"
+    >
+      7
+    </button>
+    <button
+      class=""
+      data-testid="square-8"
+      disabled=""
+      id="8"
+      style="background-image: url(undefined/images/default.jpg);"
+    >
+      8
+    </button>
+  </div>
+</DocumentFragment>
+`;

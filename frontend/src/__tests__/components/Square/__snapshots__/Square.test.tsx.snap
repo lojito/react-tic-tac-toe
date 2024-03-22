@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Square should render correctly 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="square"
+    class="win"
+    disabled=""
+    id="100"
+    style="background-image: url(test-file-stub);"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SquareHistorical should render correctly 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="historical"
+    class="win"
+    disabled=""
+    id="100"
+  />
+</DocumentFragment>
+`;

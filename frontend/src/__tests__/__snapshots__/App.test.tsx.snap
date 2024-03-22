@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="header"
+    >
+      <div>
+        Flag component
+      </div>
+      <div>
+        Navigation component
+      </div>
+    </div>
+    <div>
+      Auth form component
+    </div>
+  </div>
+</DocumentFragment>
+`;
