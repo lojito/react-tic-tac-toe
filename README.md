@@ -2,6 +2,8 @@ A Tic-tac-toe game based on images from different categories where your opponent
 
 Node.js: v14.16.0
 
+https://github.com/lojito/react-tic-tac-toe/assets/46691447/a1883fe8-3f8f-4df1-87f3-49b5802e6645
+
 ![](github-images/npm-test-1.png)
 
 ![](github-images/npm-test-2.png)
